@@ -1,0 +1,15 @@
+diff --git a/views_nivo_slider.module b/views_nivo_slider.module
+index 81ffa50..dd6bb52 100644
+--- a/views_nivo_slider.module
++++ b/views_nivo_slider.module
+@@ -119,8 +119,8 @@ function template_preprocess_views_nivo_slider_view_nivo_sliderfields(&$vars) {
+     switch ($id) {
+     case $options['image_field']:
+       //$image_url = $field_output;
+-      $field_image_name = "field_data_{$options['image_field']}_node_values";
+-      $image_url = $field_output = $row->{$field_image_name}[0]['uri'];
++      $field_image_name = "field_{$options['image_field']}";
++      $image_url = $field_output = $row->{$field_image_name}[0]['raw']['uri'];
+       break;
+ 
+     case $options['title_field']:
