@@ -23,9 +23,7 @@
 .views-nivo-slider-view  {
 	margin: 0 auto;
 	width: 920px;
-} {
-	margin: 0 auto;
-}
+} 
 
 .nivo-caption {
 	width: 920px;
@@ -39,7 +37,7 @@
 
 #preface-wrapper .in3 {
 	padding-left:110px;
-	width:925px;
+	width: 925px
 }
 
 .one-sidebar #content {
