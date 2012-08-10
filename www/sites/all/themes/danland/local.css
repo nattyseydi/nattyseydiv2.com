@@ -37,18 +37,19 @@
 	width: 990px;
 }
 
-#preface-wrapper {
-	margin-left:20px;
+#preface-wrapper .in3 {
+	padding-left:110px;
+	width:925px;
 }
 
 .one-sidebar #content {
-	margin-left: 30px;	
+	margin-left: 12px;	
 	width: 595px;
 }
 
 .region-sidebar-second .block {
 	position:relative;
-	right:33px;
+	right:53px;
 	margin-top:20px;
 	width: 300px;
 }
